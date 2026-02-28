@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- SEO -->
+  <title>Nora Holistic Wellbeing | Facials, Lymphatic Drainage & Yoga · Ladywell, SE London</title>
+  <meta name="description" content="Holistic facials, lymphatic drainage massage, post-partum & post-op massage, and private yoga sessions for women in Ladywell, SE London. Fully certified & insured. Book via Instagram @holisticnora or hello@norawellbeing.com"/>
+  <meta name="keywords" content="holistic facial London, lymphatic drainage massage SE London, Kobido facial London, Ladywell massage, private yoga London, post partum massage London, post op massage London, gua sha facial London"/>
+  <link rel="canonical" href="https://www.norawellbeing.com/"/>
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://www.norawellbeing.com/"/>
+  <meta property="og:title" content="Nora Holistic Wellbeing | Ancient Wisdom · SE London"/>
+  <meta property="og:description" content="Holistic facials, lymphatic drainage & private yoga for women in Ladywell, SE London. Ancient wisdom, transformational touch."/>
+  <meta property="og:image" content="https://www.norawellbeing.com/logo.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@200;300;400&display=swap" rel="stylesheet"/>
+
+  <style>
+    :root {
+      --parchment: #F5EFE6;
+      --cream: #FAF7F2;
+      --clay: #C4956A;
+      --bark: #6B4F3A;
+      --bark-dark: #3E2D20;
+      --moss: #7A8C6E;
+      --sand: #D4B896;
+      --warm-grey: #9A8C82;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--parchment);
+      color: var(--bark);
+      font-family: 'Jost', sans-serif;
+      font-weight: 300;
+      overflow-x: hidden;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.2rem 4rem;
+      background: rgba(245,239,230,0.92);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(196,149,106,0.2);
+    }
+
+    .nav-logo img { height: 52px; width: auto; }
+
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--bark);
+      font-family: 'Jost', sans-serif;
+      font-weight: 200;
+      font-size: 0.75rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover { color: var(--clay); }
+
+    /* ── HERO ── */
+    #home {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 8rem 2rem 4rem;
+      background: var(--cream);
+      position: relative;
+      overflow: hidden;
+    }
+
+    #home::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 60% 40%, rgba(196,149,106,0.12) 0%, transparent 65%),
+                  radial-gradient(ellipse at 20% 80%, rgba(122,140,110,0.08) 0%, transparent 55%);
+    }
+
+    .hero-logo {
+      width: min(340px, 80vw);
+      margin-bottom: 2.5rem;
+      animation: fadeUp 1.2s ease both;
+    }
+
+    .hero-tagline {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-weight: 300;
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      color: var(--bark);
+      max-width: 560px;
+      line-height: 1.6;
+      animation: fadeUp 1.2s 0.2s ease both;
+      margin-bottom: 0.8rem;
+    }
+
+    .hero-sub {
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--clay);
+      animation: fadeUp 1.2s 0.4s ease both;
+      margin-bottom: 2.5rem;
+    }
+
+    .hero-divider {
+      width: 60px;
+      height: 1px;
+      background: var(--clay);
+      margin: 0 auto 2.5rem;
+      animation: fadeUp 1.2s 0.5s ease both;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.85rem 2.5rem;
+      border: 1px solid var(--bark);
+      color: var(--bark);
+      text-decoration: none;
+      font-family: 'Jost', sans-serif;
+      font-weight: 200;
+      font-size: 0.72rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      transition: all 0.3s;
+      animation: fadeUp 1.2s 0.6s ease both;
+    }
+
+    .btn:hover { background: var(--bark); color: var(--cream); }
+
+    .btn-clay { border-color: var(--clay); color: var(--clay); }
+    .btn-clay:hover { background: var(--clay); color: var(--cream); }
+
+    /* ── SECTION BASE ── */
+    section { padding: 7rem 2rem; }
+
+    .section-label {
+      font-size: 0.68rem;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--clay);
+      margin-bottom: 1rem;
+    }
+
+    .section-heading {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 300;
+      font-size: clamp(2.2rem, 5vw, 3.4rem);
+      line-height: 1.15;
+      color: var(--bark-dark);
+      margin-bottom: 1.5rem;
+    }
+
+    .section-heading em { font-style: italic; color: var(--clay); }
+
+    .thin-rule {
+      width: 50px;
+      height: 1px;
+      background: var(--sand);
+      margin-bottom: 2rem;
+    }
+
+    /* ── ABOUT ── */
+    #about { background: var(--parchment); }
+
+    .about-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6rem;
+      align-items: center;
+    }
+
+    .about-text p {
+      font-size: 1rem;
+      line-height: 1.9;
+      color: var(--warm-grey);
+      margin-bottom: 1.4rem;
+    }
+
+    .about-text p strong { color: var(--bark); font-weight: 400; }
+
+    .about-visual { position: relative; }
+
+    .about-box {
+      background: var(--bark-dark);
+      color: var(--sand);
+      padding: 3.5rem;
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 1.5rem;
+      line-height: 1.6;
+      position: relative;
+    }
+
+    .about-box::before {
+      content: '✦';
+      display: block;
+      font-style: normal;
+      font-size: 1rem;
+      color: var(--clay);
+      margin-bottom: 1.2rem;
+    }
+
+    .about-box-sub {
+      font-family: 'Jost', sans-serif;
+      font-style: normal;
+      font-size: 0.7rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--clay);
+      margin-top: 1.5rem;
+    }
+
+    .location-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--moss);
+      margin-top: 2rem;
+    }
+
+    .location-tag::before { content: '◎'; font-size: 0.8rem; }
+
+    .about-contact-links {
+      margin-top: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .about-contact-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--clay);
+      text-decoration: none;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      transition: color 0.3s;
+    }
+
+    .about-contact-links a:hover { color: var(--bark); }
+
+    .about-contact-links svg { width: 16px; height: 16px; flex-shrink: 0; }
+
+    /* ── TRAINING BADGE ── */
+    .training-badge {
+      margin-top: 1.8rem;
+      padding: 1.2rem 1.5rem;
+      border-left: 2px solid var(--moss);
+      background: rgba(122,140,110,0.06);
+    }
+
+    .training-badge p {
+      font-size: 0.85rem !important;
+      line-height: 1.7 !important;
+      color: var(--moss) !important;
+      margin-bottom: 0 !important;
+    }
+
+    /* ── RITUALS ── */
+    #rituals { background: var(--cream); }
+
+    .rituals-inner { max-width: 1100px; margin: 0 auto; }
+
+    .rituals-header {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+
+    .rituals-header .thin-rule { margin: 0 auto 2rem; }
+
+    /* Treatment menu */
+    .treatment-menu {
+      background: var(--bark-dark);
+      padding: 3rem;
+      margin-bottom: 5rem;
+    }
+
+    .treatment-menu-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 1.2rem;
+      color: var(--sand);
+      margin-bottom: 2rem;
+      text-align: center;
+      opacity: 0.85;
+    }
+
+    .treatment-menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 0.6rem 2rem;
+    }
+
+    .treatment-menu-item {
+      display: flex;
+      align-items: baseline;
+      gap: 0.6rem;
+    }
+
+    .treatment-menu-item::before {
+      content: '✦';
+      color: var(--clay);
+      font-size: 0.6rem;
+      flex-shrink: 0;
+    }
+
+    .treatment-menu-item a {
+      color: var(--sand);
+      text-decoration: none;
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      transition: color 0.3s;
+      line-height: 1.8;
+    }
+
+    .treatment-menu-item a:hover { color: var(--clay); }
+
+    /* Ritual cards */
+    .ritual-card {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 4rem;
+      margin-bottom: 4rem;
+      padding-bottom: 4rem;
+      border-bottom: 1px solid rgba(196,149,106,0.2);
+      align-items: start;
+    }
+
+    .ritual-card.reverse { grid-template-columns: 2fr 1fr; }
+    .ritual-card.reverse .ritual-meta { order: 2; }
+    .ritual-card.reverse .ritual-body { order: 1; }
+
+    .ritual-meta { position: sticky; top: 120px; }
+
+    .ritual-number {
+      font-size: 0.65rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--clay);
+      margin-bottom: 0.8rem;
+    }
+
+    .ritual-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 300;
+      color: var(--bark-dark);
+      line-height: 1.1;
+      margin-bottom: 0.5rem;
+    }
+
+    .ritual-subtitle {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 1rem;
+      color: var(--warm-grey);
+      margin-bottom: 1.5rem;
+    }
+
+    .ritual-price-block {
+      background: var(--parchment);
+      padding: 1.2rem 1.5rem;
+      border-left: 2px solid var(--clay);
+    }
+
+    .ritual-price {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.6rem;
+      color: var(--bark);
+      font-weight: 300;
+    }
+
+    .ritual-duration {
+      font-size: 0.68rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--warm-grey);
+      margin-top: 0.2rem;
+    }
+
+    .ritual-description {
+      font-size: 0.97rem;
+      line-height: 1.9;
+      color: var(--warm-grey);
+      margin-bottom: 1.5rem;
+    }
+
+    .ritual-best-for {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 0.95rem;
+      color: var(--moss);
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+
+    .ritual-includes {
+      font-size: 0.78rem;
+      line-height: 1.8;
+      color: var(--bark);
+      border-top: 1px solid rgba(196,149,106,0.3);
+      padding-top: 1rem;
+    }
+
+    .ritual-includes strong {
+      display: block;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--clay);
+      margin-bottom: 0.4rem;
+      font-weight: 400;
+    }
+
+    /* MLD Section */
+    .mld-card {
+      background: var(--bark-dark);
+      color: var(--sand);
+      padding: 4rem;
+      margin-top: 2rem;
+      margin-bottom: 4rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+
+    .mld-heading {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 300;
+      color: var(--sand);
+      line-height: 1.15;
+      margin-bottom: 0.5rem;
+    }
+
+    .mld-subtitle {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 1rem;
+      color: var(--clay);
+      margin-bottom: 1.5rem;
+    }
+
+    .mld-description {
+      font-size: 0.95rem;
+      line-height: 1.9;
+      color: rgba(212,184,150,0.8);
+      margin-bottom: 1.2rem;
+    }
+
+    .mld-disclaimer {
+      font-size: 0.75rem;
+      font-style: italic;
+      color: rgba(212,184,150,0.5);
+      margin-bottom: 1.2rem;
+    }
+
+    .mld-prices {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+    }
+
+    .mld-price-item {
+      border: 1px solid rgba(196,149,106,0.4);
+      padding: 1.2rem 1.8rem;
+      text-align: center;
+    }
+
+    .mld-price-amount {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2rem;
+      color: var(--clay);
+      font-weight: 300;
+    }
+
+    .mld-price-duration {
+      font-size: 0.65rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--sand);
+      opacity: 0.6;
+      margin-top: 0.2rem;
+    }
+
+    .price-note {
+      font-size: 0.8rem;
+      font-style: italic;
+      color: rgba(212,184,150,0.6);
+      margin-top: 0.5rem;
+      font-family: 'Cormorant Garamond', serif;
+    }
+
+    .package-box {
+      border: 1px solid rgba(196,149,106,0.3);
+      padding: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .package-box-title {
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--clay);
+      margin-bottom: 1rem;
+    }
+
+    .package-item {
+      font-size: 0.85rem;
+      color: var(--sand);
+      padding: 0.4rem 0;
+      border-bottom: 1px solid rgba(196,149,106,0.15);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .package-item:last-child { border-bottom: none; }
+
+    /* Section divider for body treatments */
+    .section-sub-heading {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 300;
+      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      color: var(--bark-dark);
+      margin: 5rem 0 3rem;
+      padding-top: 4rem;
+      border-top: 1px solid rgba(196,149,106,0.2);
+    }
+
+    .section-sub-heading em { font-style: italic; color: var(--clay); }
+
+    /* Yoga section */
+    .yoga-card {
+      background: var(--parchment);
+      border: 1px solid rgba(196,149,106,0.25);
+      padding: 3.5rem;
+      margin-top: 2rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+
+    .yoga-heading {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 300;
+      color: var(--bark-dark);
+      line-height: 1.15;
+      margin-bottom: 0.5rem;
+    }
+
+    .yoga-subtitle {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 1rem;
+      color: var(--warm-grey);
+      margin-bottom: 1.5rem;
+    }
+
+    .yoga-description {
+      font-size: 0.95rem;
+      line-height: 1.9;
+      color: var(--warm-grey);
+      margin-bottom: 1.2rem;
+    }
+
+    /* ── FAQ ── */
+    #faq { background: var(--parchment); }
+
+    .faq-inner {
+      max-width: 760px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .faq-inner .section-heading { margin-bottom: 0.8rem; }
+
+    .faq-intro {
+      font-size: 0.95rem;
+      line-height: 1.8;
+      color: var(--warm-grey);
+      margin-bottom: 3.5rem;
+    }
+
+    .faq-list { text-align: left; }
+
+    .faq-item {
+      border-bottom: 1px solid rgba(196,149,106,0.2);
+      padding: 1.8rem 0;
+    }
+
+    .faq-item:first-child { border-top: 1px solid rgba(196,149,106,0.2); }
+
+    .faq-question {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.15rem;
+      font-weight: 400;
+      color: var(--bark-dark);
+      margin-bottom: 0.8rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .faq-question::after {
+      content: '✦';
+      font-size: 0.7rem;
+      color: var(--clay);
+      flex-shrink: 0;
+    }
+
+    .faq-answer {
+      font-size: 0.92rem;
+      line-height: 1.85;
+      color: var(--warm-grey);
+    }
+
+    .faq-answer a {
+      color: var(--clay);
+      text-decoration: none;
+    }
+
+    .faq-answer a:hover { text-decoration: underline; }
+
+    /* Contact links at bottom of FAQ */
+    .contact-links-block {
+      margin-top: 4rem;
+      padding: 2.5rem;
+      background: var(--bark-dark);
+      text-align: center;
+    }
+
+    .contact-links-block p {
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--clay);
+      margin-bottom: 1.5rem;
+    }
+
+    .contact-links-icons {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .contact-link-icon {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      color: var(--sand);
+      text-decoration: none;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      transition: color 0.3s;
+    }
+
+    .contact-link-icon:hover { color: var(--clay); }
+
+    .contact-link-icon svg { width: 18px; height: 18px; }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--bark-dark);
+      color: var(--sand);
+      text-align: center;
+      padding: 2.5rem;
+      font-size: 0.68rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      opacity: 0.8;
+    }
+
+    footer img {
+      height: 40px;
+      margin-bottom: 1rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      filter: brightness(0) invert(1) opacity(0.4);
+    }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* ── MOBILE ── */
+    @media (max-width: 768px) {
+      nav { padding: 1rem 1.5rem; }
+      .nav-links { gap: 1.2rem; }
+      .nav-links a { font-size: 0.65rem; }
+      .about-inner { grid-template-columns: 1fr; gap: 3rem; }
+      .ritual-card { grid-template-columns: 1fr; gap: 2rem; }
+      .ritual-card.reverse .ritual-meta { order: 1; }
+      .ritual-card.reverse .ritual-body { order: 2; }
+      .ritual-meta { position: static; }
+      .mld-card { grid-template-columns: 1fr; gap: 2rem; padding: 2.5rem; }
+      .yoga-card { grid-template-columns: 1fr; gap: 2rem; }
+      .treatment-menu { padding: 2rem 1.5rem; }
+      .treatment-menu-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    <a href="#home"><img src="logo.png" alt="Nora Holistic Wellbeing"/></a>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#rituals">Rituals</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+  <img src="logo.png" alt="Nora Holistic Wellbeing" class="hero-logo"/>
+  <p class="hero-tagline">Creating glowing skin naturally, using ancient wisdom and transformational touch</p>
+  <p class="hero-sub">Ladywell · South East London · Women Only</p>
+  <div class="hero-divider"></div>
+  <a href="#rituals" class="btn">Discover the Rituals</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-inner">
+    <div class="about-text reveal">
+      <p class="section-label">About Nora</p>
+      <h2 class="section-heading">Ancient wisdom,<br/><em>transformational touch</em></h2>
+      <div class="thin-rule"></div>
+      <p>Welcome to Nora Holistic Wellbeing! I am Nora and I am passionate about holistic wellbeing for women. My work in <strong>international development</strong> has taken me all over the world delivering holistic empowerment programmes for women.</p>
+      <p>I am fortunate to have had the chance to learn from many women and their <strong>ancient wisdoms</strong> through these travels. Now back in London, I am putting this passion into practice — providing holistic treatments using ancient wisdom and transformational touch in my cosy home clinic in Ladywell, SE London.</p>
+      <p>At the moment I offer <strong>holistic facials</strong>, <strong>lymphatic drainage massage</strong> and <strong>private yoga sessions</strong> for women only. In the rituals section you can read more about what these entail.</p>
+      <p>I am fully certified and insured. If you have any questions please don't hesitate to get in touch.</p>
+
+      <div class="about-contact-links">
+        <a href="https://www.instagram.com/holisticnora" target="_blank">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
+          @holisticnora
+        </a>
+        <a href="mailto:hello@norawellbeing.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+          hello@norawellbeing.com
+        </a>
+        <a href="https://www.norawellbeing.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          norawellbeing.com
+        </a>
+      </div>
+
+      <div class="training-badge">
+        <p>Fully certified and insured for all treatments offered. Training received from accredited institutions in <strong>London</strong> and <strong>Thailand</strong>.</p>
+      </div>
+
+      <span class="location-tag">Ladywell, SE London</span>
+    </div>
+    <div class="about-visual reveal">
+      <div class="about-box">
+        Ritualistic facials, to bring back your radiance — and a touch that reminds the body it already knows how to heal.
+        <div class="about-box-sub">Nora · Holistic Wellbeing</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RITUALS -->
+<section id="rituals">
+  <div class="rituals-inner">
+
+    <div class="rituals-header reveal">
+      <p class="section-label">The Rituals</p>
+      <h2 class="section-heading">All <em>Treatments</em></h2>
+      <div class="thin-rule"></div>
+      <p style="max-width:560px; margin:0 auto; color:var(--warm-grey); font-size:0.95rem; line-height:1.8;">More than a facial. Each ritual combines ancient Eastern wisdom with the art of touch — to release tension, restore radiance, and bring the face back to itself.</p>
+    </div>
+
+    <!-- Treatment Menu -->
+    <div class="treatment-menu reveal">
+      <p class="treatment-menu-title">Jump to a treatment</p>
+      <div class="treatment-menu-grid">
+        <div class="treatment-menu-item"><a href="#ritual-01">Clear & Flow — Detox Facial</a></div>
+        <div class="treatment-menu-item"><a href="#ritual-02">Lift & Sculpt — Fusion Facial</a></div>
+        <div class="treatment-menu-item"><a href="#ritual-03">Lift & Detox — Full Ritual</a></div>
+        <div class="treatment-menu-item"><a href="#mld">Lymphatic Drainage Massage</a></div>
+        <div class="treatment-menu-item"><a href="#postpartum">Post-Partum MLD Massage</a></div>
+        <div class="treatment-menu-item"><a href="#postop">Post-Op Lymphatic Drainage</a></div>
+        <div class="treatment-menu-item"><a href="#yoga">Private Yoga Sessions</a></div>
+      </div>
+    </div>
+
+    <!-- FACIALS HEADING -->
+    <div class="reveal" style="margin-bottom:3rem;">
+      <p class="section-label">Holistic Facials</p>
+    </div>
+
+    <!-- Ritual 01 -->
+    <div class="ritual-card reveal" id="ritual-01">
+      <div class="ritual-meta">
+        <p class="ritual-number">Ritual No. 01 · Detox</p>
+        <h3 class="ritual-name">Clear<br/>& Flow</h3>
+        <p class="ritual-subtitle">A lymphatic detox facial</p>
+        <div class="ritual-price-block">
+          <div class="ritual-price">£80</div>
+          <div class="ritual-duration">75 minutes</div>
+        </div>
+      </div>
+      <div class="ritual-body">
+        <p class="ritual-description">When the face feels heavy, congested, or dull — this is the ritual it's asking for. Using slow, intentional lymphatic drainage techniques across the face, jaw, and neck, we gently guide the body to release what it's been holding. Gua sha and cupping flow through the sequence to encourage fluid movement and ease the mind into stillness.</p>
+        <p class="ritual-description">You'll leave looking open, clear, and quietly radiant — as if you've been away somewhere restful.</p>
+        <p class="ritual-best-for">✦ Best for puffiness, congestion, jaw tension, post-travel or pre-event skin</p>
+        <div class="ritual-includes">
+          <strong>What's included</strong>
+          Lymphatic drainage · Steam · Cleanse · Mask · Gua sha · Cupping · Shoulder massage · Scalp massage · Head massage · Neck massage
+        </div>
+      </div>
+    </div>
+
+    <!-- Ritual 02 -->
+    <div class="ritual-card reverse reveal" id="ritual-02">
+      <div class="ritual-meta">
+        <p class="ritual-number">Ritual No. 02 · Lift & Sculpt</p>
+        <h3 class="ritual-name">Lift<br/>& Sculpt</h3>
+        <p class="ritual-subtitle">Indian head massage meets Japanese Kobido</p>
+        <div class="ritual-price-block">
+          <div class="ritual-price">£80</div>
+          <div class="ritual-duration">75 minutes</div>
+        </div>
+      </div>
+      <div class="ritual-body">
+        <p class="ritual-description">Two of the world's oldest facial traditions meet in one deeply restorative ritual. Japanese Kobido brings its precise, lifting rhythms; Indian face massage its warm, meditative depth. Together they help tone facial muscles, stimulate circulation, and bring a natural firmness that glows from within.</p>
+        <p class="ritual-description">A beautiful ritual for anyone who wants to support the skin's natural vitality through the power of touch.</p>
+        <p class="ritual-best-for">✦ Best for those seeking natural skin lifting support, improved definition, or deep facial tension release</p>
+        <div class="ritual-includes">
+          <strong>What's included</strong>
+          Steam · Cleanse · Mask · Sculpting & lifting massage · Toning techniques · Gua sha · Shoulder massage · Scalp massage · Head massage · Neck massage
+        </div>
+      </div>
+    </div>
+
+    <!-- Ritual 03 -->
+    <div class="ritual-card reveal" id="ritual-03">
+      <div class="ritual-meta">
+        <p class="ritual-number">Ritual No. 03 · The Complete Ritual</p>
+        <h3 class="ritual-name">Lift<br/>& Detox</h3>
+        <p class="ritual-subtitle">A fusion of rituals 01 & 02</p>
+        <div class="ritual-price-block">
+          <div class="ritual-price">£95</div>
+          <div class="ritual-duration">90 minutes</div>
+        </div>
+      </div>
+      <div class="ritual-body">
+        <p class="ritual-description">The complete ritual — combining the best of Clear & Flow and Lift & Sculpt into one seamless, flowing treatment. This ritual opens, sculpts, tones, drains, and restores — leaving the face visibly refreshed and the nervous system deeply settled.</p>
+        <p class="ritual-description">People often say they leave looking as though they've had a holiday — or been sleeping beautifully for a week.</p>
+        <p class="ritual-best-for">✦ Best for first-time visitors, regular maintenance, high stress, and pre-occasion glow</p>
+        <div class="ritual-includes">
+          <strong>What's included</strong>
+          Everything from Rituals 01 & 02 — Lymphatic drainage · Steam · Cleanse · Mask · Kobido & Indian lifting massage · Gua sha · Cupping · Shoulder, scalp, head & neck massage
+        </div>
+      </div>
+    </div>
+
+    <!-- BODY TREATMENTS HEADING -->
+    <h3 class="section-sub-heading reveal">Body <em>Treatments</em></h3>
+
+    <!-- MLD -->
+    <div class="mld-card reveal" id="mld">
+      <div>
+        <p class="ritual-number" style="color:var(--clay)">Body Treatment</p>
+        <h3 class="mld-heading">Manual Lymphatic<br/>Drainage Massage</h3>
+        <p class="mld-subtitle">Brazilian MLD technique · Bespoke & Ayurvedic</p>
+        <p class="mld-description">Using the Brazilian MLD technique, this bespoke massage works on supporting the body's natural lymphatic flow and leaving you feeling lighter and smoother. The lymph drain and body oil is heated and poured onto the stomach first to support comfort and ease.</p>
+        <p class="mld-description">The oil is packed with powerful Ayurvedic ingredients — turmeric, ashwagandha, and sesame oil — which deeply moisturise the skin and complement the massage beautifully.</p>
+        <p class="mld-disclaimer">This is a holistic treatment, not a medical procedure.</p>
+      </div>
+      <div>
+        <div class="mld-prices">
+          <div class="mld-price-item">
+            <div class="mld-price-amount">£80</div>
+            <div class="mld-price-duration">60 minutes</div>
+          </div>
+          <div class="mld-price-item">
+            <div class="mld-price-amount">£100</div>
+            <div class="mld-price-duration">90 minutes</div>
+          </div>
+        </div>
+        <p class="price-note">The 90-minute session can include either an express facial ritual (30 min) or an extended body massage — your choice.</p>
+        <br/>
+        <a href="https://www.instagram.com/holisticnora" target="_blank" class="btn btn-clay" style="animation:none; opacity:1;">Book a session</a>
+      </div>
+    </div>
+
+    <!-- POST PARTUM MLD -->
+    <div class="mld-card reveal" id="postpartum" style="margin-top:2rem;">
+      <div>
+        <p class="ritual-number" style="color:var(--clay)">Body Treatment · Postnatal</p>
+        <h3 class="mld-heading">Post-Partum<br/>Lymphatic Drainage</h3>
+        <p class="mld-subtitle">Gentle · Restorative · Nourishing</p>
+        <p class="mld-description">A nurturing adaptation of the lymphatic drainage massage, designed with new mothers in mind. The same Brazilian MLD technique is used, with extra care and gentleness to support the body's natural recovery after birth.</p>
+        <p class="mld-description">The focus is on gentle, supportive touch that helps you feel restored, lighter, and cared for during the postnatal period. The same beautiful Ayurvedic oil blend is used to deeply nourish the skin.</p>
+        <p class="mld-disclaimer">This is a holistic treatment, not a medical procedure. Please consult your midwife or GP before booking if you have any concerns.</p>
+      </div>
+      <div>
+        <div class="mld-prices">
+          <div class="mld-price-item">
+            <div class="mld-price-amount">£80</div>
+            <div class="mld-price-duration">60 minutes</div>
+          </div>
+          <div class="mld-price-item">
+            <div class="mld-price-amount">£100</div>
+            <div class="mld-price-duration">90 minutes</div>
+          </div>
+        </div>
+        <br/>
+        <a href="https://www.instagram.com/holisticnora" target="_blank" class="btn btn-clay" style="animation:none; opacity:1;">Book a session</a>
+      </div>
+    </div>
+
+    <!-- POST OP MLD -->
+    <div class="mld-card reveal" id="postop" style="margin-top:2rem;">
+      <div>
+        <p class="ritual-number" style="color:var(--clay)">Body Treatment · Post-Operative</p>
+        <h3 class="mld-heading">Post-Op Lymphatic<br/>Drainage</h3>
+        <p class="mld-subtitle">Brazilian MLD · Organic Arnica Oil</p>
+        <p class="mld-description">Brazilian-style lymphatic drainage massage to help support the body's natural recovery after surgery and reduce the feeling of water retention. Organic arnica oil is used throughout to help soothe and nourish the skin during the healing process.</p>
+        <p class="mld-description">For best results, I recommend starting as soon as you are cleared by your surgeon and booking multiple sessions close together.</p>
+        <p class="mld-disclaimer">This is a holistic treatment, not a medical procedure. Always follow your surgeon's guidance before booking.</p>
+      </div>
+      <div>
+        <div class="mld-prices">
+          <div class="mld-price-item">
+            <div class="mld-price-amount">£90</div>
+            <div class="mld-price-duration">60 minutes</div>
+          </div>
+          <div class="mld-price-item">
+            <div class="mld-price-amount">£110</div>
+            <div class="mld-price-duration">90 minutes</div>
+          </div>
+        </div>
+        <div class="package-box">
+          <p class="package-box-title">Session Packages</p>
+          <div class="package-item"><span>3 × 60 min sessions</span><span style="color:var(--clay);">£210</span></div>
+          <div class="package-item"><span>5 × 60 min sessions</span><span style="color:var(--clay);">£300</span></div>
+        </div>
+        <br/>
+        <a href="https://www.instagram.com/holisticnora" target="_blank" class="btn btn-clay" style="animation:none; opacity:1;">Book a session</a>
+      </div>
+    </div>
+
+    <!-- YOGA -->
+    <h3 class="section-sub-heading reveal">Private <em>Yoga</em></h3>
+
+    <div class="yoga-card reveal" id="yoga">
+      <div>
+        <p class="ritual-number">Private · 1-to-1 · Home Clinic</p>
+        <h3 class="yoga-heading">Hatha &<br/>Yin Yoga</h3>
+        <p class="yoga-subtitle">A fully tailored session, just for you</p>
+        <p class="yoga-description">A curated yoga session designed entirely around your individual needs, in the calm and comfort of a private home clinic. Ideal for those who crave the restorative benefits of yoga without the noise of a crowded class.</p>
+        <p class="yoga-description">Each session weaves in essential oils, incense, breathwork and meditation — creating a truly immersive and personal experience. Bring a friend and split the cost if you'd like to share the ritual.</p>
+        <p class="yoga-description" style="font-family:'Cormorant Garamond',serif; font-style:italic; color:var(--bark);">✦ Hatha Yoga · Yin Yoga · Breathwork · Meditation · Essential Oils · Incense</p>
+      </div>
+      <div>
+        <div class="ritual-price-block" style="margin-bottom:1rem;">
+          <div class="ritual-price">£40</div>
+          <div class="ritual-duration">60 minutes</div>
+        </div>
+        <div class="ritual-price-block" style="margin-bottom:1.5rem;">
+          <div class="ritual-price">£60</div>
+          <div class="ritual-duration">90 minutes</div>
+        </div>
+        <p style="font-size:0.78rem; color:var(--warm-grey); font-style:italic; font-family:'Cormorant Garamond',serif; line-height:1.6;">Prices can be split between two people if you'd like to bring a friend.</p>
+        <br/>
+        <a href="https://www.instagram.com/holisticnora" target="_blank" class="btn" style="animation:none; opacity:1;">Book a session</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="faq-inner">
+    <p class="section-label reveal">Questions & Answers</p>
+    <h2 class="section-heading reveal">Frequently Asked<br/><em>Questions</em></h2>
+    <div class="thin-rule" style="margin:0 auto 2rem;"></div>
+
+    <div class="faq-list reveal">
+
+      <div class="faq-item">
+        <p class="faq-question">What are your terms and conditions?</p>
+        <p class="faq-answer">A deposit is required to reserve your appointment. Cancellations with less than 24 hours' notice will forfeit the deposit.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-question">Where are you based?</p>
+        <p class="faq-answer">I practice from a home clinic in Lewisham, London. The closest station is Ladywell. The exact address will be shared closer to your appointment.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-question">How can I book?</p>
+        <p class="faq-answer">
+          You can reach me on any of the following:<br/><br/>
+          Instagram: <a href="https://www.instagram.com/holisticnora" target="_blank">@holisticnora</a><br/>
+          Email: <a href="mailto:hello@norawellbeing.com">hello@norawellbeing.com</a><br/>
+          WhatsApp: <a href="https://wa.me/447776162455">07776 162 455</a>
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-question">Do you always use fresh towels?</p>
+        <p class="faq-answer">Of course. All towels and sheets are replaced and deep cleaned after each client. All tools are sterilised and disinfected after every use.</p>
+      </div>
+
+    </div>
+
+    <!-- Contact icons -->
+    <div class="contact-links-block reveal">
+      <p>Get in touch</p>
+      <div class="contact-links-icons">
+        <a href="https://www.instagram.com/holisticnora" target="_blank" class="contact-link-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
+          @holisticnora
+        </a>
+        <a href="mailto:hello@norawellbeing.com" class="contact-link-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+          hello@norawellbeing.com
+        </a>
+        <a href="https://wa.me/447776162455" target="_blank" class="contact-link-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          07776 162 455
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <img src="logo.png" alt="Nora"/>
+  <p>© 2025 Nora Holistic Wellbeing · Ladywell, SE London · Women Only</p>
+</footer>
+
+<script>
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, { threshold: 0.1 });
+  reveals.forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
